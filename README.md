@@ -272,6 +272,22 @@ Um sistema de reservas de hotel permite que os hóspedes reservem quartos online
 funcionários do hotel gerenciem as reservas e que o gerente do hotel gere relatórios de ocupação. 
 Os hóspedes podem visualizar os quartos disponíveis e cancelar suas reservas. Os funcionários 
 podem confirmar e cancelar reservas. O gerente pode visualizar relatórios de ocupação e receita.
+# Requisitos Funcionais (RF):
+-	O app deve oferecer pagamentos por cartão de crédito e débito, Pix e no check-in.
+- Reserva de Quartos: Os clientes devem poder fazer reservas de quartos para as datas desejadas.
+- Gestão de Reservas: Os clientes devem poder visualizar e gerenciar suas reservas, incluindo alterações de datas ou cancelamentos.
+- Feedback: o sistema deve permitir que os clientes deixem feedback e avaliações sobre suas estadias nos hotéis.
+- Hotéis em cadeia já estão cadastrados no app, eles não precisam fazer, uma chave de acesso específica para determinado hotel será enviada na versão final da aplicação
+- O sistema deve possuir uma barra de pesquisas
+# Requisitos não funcionais (RNF)
+-	Aplicação deve funcionar 24/7.
+- Deve suportar 10000 acessos simultâneos sem perca de estabilidade.
+- Versões nativas ao IOS/Android com aplicativo nativo, e uma versão nativa para o desktop.
+- Transações devem seguir a LGPD.
+# Requisitos de domínio
+- Todas as transações e dados do cliente devem ser protegidas pela LGPD.
+- Todas as empreas devem ter os funcionários que admnistram a aplicação registrados com carteira assinada, evitando possíveis problemas futuros.
+
 # Cenário 3 - Sistema de Gerenciamento de Restaurante:
 Um sistema de gerenciamento de restaurante permite que os clientes façam reservas de mesas e 
 façam pedidos online, que os garçons gerenciem os pedidos e que o gerente do restaurante gere 
